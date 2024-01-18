@@ -11,7 +11,7 @@ This project uses [JSZip](https://github.com/Stuk/jszip#readme).
 
 ### VertiGIS Studio Workflow Versions
 
-The Zip activities are designed to work with VertiGIS Studio Workflow versions `5.33` and above.
+The Zip activities are designed to work with VertiGIS Studio Workflow versions `5.37` and above.
 
 ## Usage
 
@@ -26,8 +26,9 @@ To use the Zip activities in [VertiGIS Studio Workflow Designer](https://apps.ve
     - Purpose: `Ready To Use`
     - API: `JavaScript`
     - URL: The URL to this activity pack manifest
-        - Use https://unpkg.com/@vertigis/workflow-activities-zip/activitypack.json for the latest version
         - Use https://unpkg.com/@vertigis/workflow-activities-zip@1.0.0/activitypack.json for a specific version
+        - Use https://unpkg.com/@vertigis/workflow-activities-zip@1/activitypack.json for the latest revision of a specific major version
+        - Use https://unpkg.com/@vertigis/workflow-activities-zip/activitypack.json for the latest version (not recommended for production use)
         - Use https://localhost:5000/activitypack.json for a local development version
     - Title: Your desired title
     - Tags: Must include `geocortex-workflow-activity-pack`
